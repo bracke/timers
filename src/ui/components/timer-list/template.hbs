@@ -1,5 +1,13 @@
 <div>
 	{{#each timers key="@index" as |timer|}}
+
+	<button>Start</button>
+	<button>Stop</button>
+	<button>Reset</button>
 		{{timer.name}}
+	<input type="text" value="{{timer.name}}" />	
+	<span>{{timer.runtime}}</span>
+
+	<br>
 	{{/each}}
 </div>
