@@ -15,7 +15,8 @@ app.registerInitializer({
   }
 });
 
-app.renderComponent('timers-app', containerElement, null);
+
+app.renderComponent('timer-list', containerElement, null);
+
 
 app.boot();
-initializeCustomElements(app, ['timers-app']);
